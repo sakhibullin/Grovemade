@@ -1,0 +1,410 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="owl.carousel.min.css">
+        <link rel="stylesheet" href="owl.theme.default.min.css">
+        <title>Grovemade</title>
+    </head>
+    <body>
+            <header>
+                <a href="#" id="shop">SHOP</a>
+                <a href="#" id="explore">EXPLORE</a>
+                <div class="logo"></div>
+                <a href="#">MY CART</a>
+            </header>
+            <div class="topmenu">
+                <div class="shopMenu">
+                    <div class="block">
+                        <h1>Shop</h1>
+                        <ul>
+                            <li><a href="#">Shop all</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h1>Mouse/Desk Pads</h1>
+                        <ul>
+                            <li><a href="#">Desk Pads</a></li>
+                            <li><a href="#">Mouse Pads</a></li>
+                            <li><a href="#">Coasters</a></li>
+                            <li><a href="#">View all</a></li>
+                        </ul>
+
+
+
+
+                    </div>
+                    <div class="block">
+                        <h1>Stands</h1>
+                        <ul>
+                            <li><a href="#">Desk Shelves</a></li>
+                            <li><a href="#">Monitor Stands</a></li>
+                            <li><a href="#">Laptop Stands</a></li>
+                            <li><a href="#">Headphone Stands</a></li>
+                            <li><a href="#">iPhone Docks</a></li>
+                            <li><a href="#">iPad Stands</a></li>
+                            <li><a href="#">View all</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h1>Tools</h1>
+                        <ul>
+                            <li><a href="#">Pens</a></li>
+                            <li><a href="#">Stationery</a></li>
+                            <li><a href="#">Notebooks</a></li>
+                            <li><a href="#">Knives</a></li>
+                            <li><a href="#">Trays</a></li>
+                            <li><a href="#">Pen Cups & Planters</a></li>
+                            <li><a href="#">View all</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h1>Keyboard</h1>
+                        <ul>
+                            <li><a href="#">Apple Keyboard Tray</a></li>
+                            <li><a href="#">Apple Trackpad Tray</a></li>
+                            <li><a href="#">Wrist Rests</a></li>
+                            <li><a href="#">View all</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h1>Wall Mounted</h1>
+                        <ul>
+                            <li><a href="#">Catch-All</a></li>
+                            <li><a href="#">Wall Shelves</a></li>
+                            <li><a href="#">View all</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="exploreMenu">
+                    <div class="block">
+                        <h1>About</h1>
+                        <ul>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Origins</a></li>
+                            <li><a href="#">Our Home</a></li>
+                            <li><a href="#">Visit Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h1>Journal</h1>
+                        <ul>
+                            <li><a href="#">Customer Stories</a></li>
+                            <li><a href="#">Design Storise</a></li>
+                            <li><a href="#">Product Highlights</a></li>
+                            <li><a href="#">Behind the Scenes</a></li>
+                            <li><a href="#">Material Focus</a></li>
+                            <li><a href="#">View all</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h1>Connect</h1>
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Pinterest</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="our">
+                        <div></div>
+                        <p>Our Story</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tableHead">
+                <p>The Desk Shelf System</p>
+                <p>Avaliable in Walinut or Maple</p>
+                <div><a href="#">LEARN MORE</a></div>
+            </div>
+        <div class="container">
+           <div class="blockDesign">
+               <p>Design Inspires</p>
+               <p>Build your dream workspace, so you can get you best work done</p>
+               <div><a href="#">GET STARTED</a></div>
+           </div>
+            <div class="standPads">
+                <div class="block">
+                    <div class="photo"></div>
+                    <div class="name">Desk Pads</div>
+                    <div><a href="#">LEARN MORE</a></div>
+                </div>
+                <div class="block">
+                    <div class="photo"></div>
+                    <div class="name">Laptop Stands</div>
+                    <div><a href="#">LEARN MORE</a></div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="text">
+                    <div class="blockDesign">
+                        <p>Featured Products</p>
+                        <p>See Whats's Trending Right Now</p>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="gtco-testimonials">
+                        <div class="owl-carousel owl-carousel1 owl-theme">
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card text-center">
+                                    <div class="photo"></div>
+                                    <div class="name">Walnut MagSafe Stand</div>
+                                    <div class="price">$120</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homeOffice">
+                <p>Home Office Inspiration</p>
+                <p>Working from home can be a challenge-see some creative solutions to get it just right</p>
+                <div><a href="#">LEARN MORE</a></div>
+            </div>
+            <div class="hardWay">
+                <div class="text">
+                    <p>Made The Hard Way</p>
+                    <p>Our signature craftsmanship has been honed over a decade of manufacturing innovation here in Portland, Oregon. We combine the skills of our small in-house team with the collective strength of collaborators throughout the US to deliver quality products worth investing in.</p>
+                </div>
+                <div class="hardWayPhoto">
+                </div>
+            </div>
+            <div class="makeWork">
+                <div class="text">
+                    <p>Make Work Meaningful</p>
+                    <p>We're here because we believe that your work deserves the best. A team that loves working together is the magic that makes it all happen.</p>
+                </div>
+                <div class="photos">
+                    <div class="row">
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                    </div>
+                    <div class="row">
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                    </div>
+                    <div class="row">
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                    </div>
+                    <div class="row">
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="joinUs">
+                <p>We Hope You'll Join Us</p>
+                <div><a href="#">READ MORE ABOUT OUR STORY</a></div>
+            </div>
+            <div class="banner">
+                <div class="logo"></div>
+                <p>Design Inspires</p>
+                <p>Build your dream workspace, so you can get your best work done.</p>
+            </div>
+        </div>
+        <footer>
+            <div class="links">
+                <div><a href="#">Shop</a></div>
+                <div><a href="#">About</a></div>
+                <div><a href="#">Journal</a></div>
+                <div><a href="#">Support</a></div>
+                <div><a href="#">COVID-19 Info</a></div>
+                <div><a href="#">Order Status</a></div>
+                <div><a href="#">Corporate Sales</a></div>
+            </div>
+            <div class="signup">
+                <p>Newsletter Signup</p>
+                <p>Sign up to our Newsletter to hear about new product releases, learn about our design process, and everything else going on behind the scenes at Grovemade.</p>
+                <div></div>
+            </div>
+            <div class="logo"></div>
+        </footer>
+        <div class="underlinks">
+            <div><a href="#">©2020 Grovemade</a></div>
+            <div><a href="#">Terms & Conditions</a></div>
+            <div><a href="#">Privacy Policy</a></div>
+            <div><a href="#">Site by Department</a></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="owl.carousel.min.js"></script>
+        <script>
+            (function () {
+                "use strict";
+
+                var carousels = function () {
+                    $(".owl-carousel1").owlCarousel({
+                        loop: true,
+                        margin: 0,
+                        responsiveClass: true,
+                        nav: false,
+                        responsive: {
+                            0: {
+                                items: 4,
+                                nav: true
+                            },
+                            680: {
+                                items: 4,
+                                nav: true,
+                                loop: true
+                            },
+                            1000: {
+                                items:4,
+                                nav: true
+                            }
+                        }
+                    });
+                };
+
+
+                (function ($) {
+                    carousels();
+                })
+                (function ($) {
+                    carousels();
+                });
+                $('#shop').hover(function (){
+                    // $('.shopMenu').css('display','block')
+                    $('.shopMenu').css('opacity','1')
+                    $('.shopMenu').css('z-index','3')
+                }, function (){
+                    // $('.shopMenu').css('display','none')
+                    $('.shopMenu').css('opacity','0')
+                    $('.shopMenu').css('z-index','-3')
+                    $('.shopMenu').css('transition','all 1s ease-in-out')
+                })
+                $('.shopMenu').hover(function (){
+                    // $('.shopMenu').css('display','block')
+                    $('.shopMenu').css('opacity','1')
+                    $('.shopMenu').css('z-index','3')
+                }, function (){
+                    // $('.shopMenu').css('display','none')
+                    $('.shopMenu').css('opacity','0')
+                    $('.shopMenu').css('z-index','-3')
+                    $('.shopMenu').css('transition','all 1s ease-in-out')
+                })
+
+                $('#explore').hover(function (){
+                    // $('.exploreMenu').css('display','block')
+                    $('.exploreMenu').css('opacity','1')
+                    $('.exploreMenu').css('z-index','3')
+                }, function (){
+                    // $('.exploreMenu').css('display','none')
+
+                    $('.exploreMenu').css('opacity','0')
+                    $('.exploreMenu').css('z-index','-3')
+                    $('.exploreMenu').css('transition','all 1s ease-in-out')
+                })
+                $('.exploreMenu').hover(function (){
+                    // $('.exploreMenu').css('display','block')
+                    $('.exploreMenu').css('opacity','1')
+                    $('.exploreMenu').css('z-index','3')
+                }, function (){
+                    // $('.exploreMenu').css('display','none')
+                    $('.exploreMenu').css('transition','all 1s ease-in-out')
+                    $('.exploreMenu').css('opacity','0')
+                    $('.exploreMenu').css('z-index','-3')
+                })
+            })();
+
+        </script>
+    </body>
+</html>

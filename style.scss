@@ -1,0 +1,783 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+
+header{
+  background: white;
+  display: flex;
+  width:100vw ;
+  height: 75px;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+  a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:700;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: black !important;
+    text-decoration: none;
+    margin: auto 50px;
+    width: fit-content;
+  }
+  .logo{
+    background-image: url("images/logo.png");
+    width: 200px;
+    height:17.5px ;
+    margin: auto auto;
+  }
+  a:last-child{
+    margin-right: 80px;
+  }
+  a:nth-child(2){
+    margin-left: -26px;
+    margin-right: 0;
+  }
+  a:after{
+    background: #000;
+    display: block;
+    height: 1px;
+    width: 40%;
+    content: '';
+    opacity: 0;
+    transition: .2s;
+    margin: auto;
+  }
+  a:hover:after{
+    opacity: 1;
+    width: 100%;
+  }
+
+  a:hover .shopMenu{
+    display: block;
+  }
+}
+
+  .shopMenu{
+    width: 100vw;
+    height: 500px;
+    background: white;
+    display: flex;
+    position: fixed;
+    transition: .5s ease-in-out;
+    opacity: 0;
+    z-index: -3;
+    justify-content: space-around;
+  }
+  .exploreMenu {
+    width: 100vw;
+    height: 500px;
+    background: white;
+    position: fixed;
+    display: flex;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    z-index: -3;
+    justify-content: space-around;
+    .our{
+
+     div{
+      background-image: url("images/Ourstory.jpg");
+      width: 500px;
+      height: 332px;
+      margin-top: 100px;}
+      p{
+        width: fit-content;
+        margin: auto;
+        color: black;
+        transform: translateY(20px);
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+
+      }
+
+  }}
+
+   .topmenu{
+
+     .block{
+       margin: 100px 50px;
+       display:grid;
+       ul{
+         padding: 0;
+         position: absolute;
+         margin-top: 50px;
+         li{
+           margin: 20px 0;
+         }
+       }
+     }
+     h1{
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: 300;
+       font-size: 30px;
+       letter-spacing: 0;
+       margin-bottom:10px;
+       cursor: pointer;
+       height: 38px;
+     }
+
+     h1:after{
+       background: black;
+       //width: 10px;
+       height: 1px;
+       content: '';
+       display: block;
+       margin:auto ;
+       transition: ease-in-out .3s;
+       //position: absolute;
+       left: 0;
+       right: 0;
+       width: 0%;
+     }
+     h1:hover:after{
+       width:100%;
+     }
+
+     a{
+        color: #a0a0a0;
+       margin: 5px 0;
+       font-weight: 300;
+       font-size: 14px;
+       font-family: Roboto;
+     }
+     a:active{
+       color: #a0a0a0;
+     }
+     a:focus{
+       color: #a0a0a0;
+     }
+
+     a:hover{
+       color: black;
+     }
+   }
+
+a:hover .shopMenu{
+  display: block;
+}
+
+.container{
+  width: 1400px;
+  color: black !important;
+  text-decoration: none;
+  margin: auto;
+  overflow-x: hidden;
+
+  a:active{
+    color: black;
+  }
+
+
+  .blockDesign{
+    margin:auto;
+    margin-top: 80px;
+    width: fit-content;
+    p{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 43px;
+      width: fit-content;
+      margin: auto;
+    }
+    p:nth-child(2){
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px !important;
+      line-height: 24px;
+      color: #A0a0a0 !important;
+      width: fit-content;
+      margin: auto;
+      margin-top: 23px;
+    }
+    div{
+      width: fit-content;
+      margin: auto;
+      margin-top:26px;
+    }
+    a{
+      color: black;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 21px;
+      width: fit-content;
+      margin: auto;
+    }
+    a:active{
+      color: black;
+    }
+    a:focus{
+      color: black;
+    }
+    a:after{
+      background: black;
+      //width: 10px;
+      height: 1px;
+      content: '';
+      display: block;
+      margin:auto ;
+      transition: ease-in-out .3s;
+      //position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+    }
+    a:hover:after{
+      width:70%;
+    }
+    a:hover{
+      padding-bottom: 2px;
+    }
+  }
+
+  .standPads{
+    display: flex;
+    width: fit-content;
+    margin:auto ;
+    margin-top: 81px;
+
+    .photo:first-child{
+      background-image: url("images/pads.png");
+      width: 658px;
+      height: 441px;
+      margin: auto;
+    }
+
+    .block{
+      width: 682.5px;
+      height: 570.5px;
+
+      .name{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        width: fit-content;
+        margin:auto ;
+        margin-top:48px;
+      }
+
+      div{
+        width: fit-content;
+        margin: auto;
+        margin-top:23px;
+      }
+      a{
+        color: black;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+      }
+      a:active{
+        color: black;
+      }
+      a:focus{
+        color: black;
+      }
+      a:after{
+        background: black;
+        //width: 10px;
+        height: 1px;
+        content: '';
+        display: block;
+        margin:auto ;
+        transition: .3s ease-in-out;
+        //position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+      }
+      a:hover:after{
+        width:70%;
+      }
+      a:hover{}
+    }
+  }
+  .products {
+    .blockDesign {
+      margin: auto;
+      margin-top: 130px;
+      width: fit-content;
+
+      p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 43px;
+        width: fit-content;
+        margin: auto;
+      }
+
+      p:nth-child(2) {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px !important;
+        line-height: 24px;
+        color: #A0a0a0 !important;
+        width: fit-content;
+        margin: auto;
+        margin-top: 23px;
+      }
+    }
+  }
+}
+
+.tableHead{
+  background-image: url("images/tableHead.png");
+  width: 1440px;
+  height: 504px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  margin:auto;
+  margin-top: 75px;
+  p{
+    color: white;
+    width: fit-content;
+    margin: auto;
+    margin-top: 188px;
+    height: fit-content;
+  }
+  p:nth-child(2){
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 12px;
+  }
+  div{
+    color: white;
+    width: fit-content;
+    margin: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    margin-top:28px;
+  }
+  a:active{
+    color: white;
+  }
+  a:visited{
+    color:white;
+  }
+}
+
+.slider{
+  margin-top:25px;
+
+  .owl-carousel .owl-stage{
+    height: 510px !important;
+    overflow-y: hidden;
+  }
+
+  .name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #A0A0A0;
+    margin-top:23px;
+  }
+
+  .price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #A0A0A0;
+  }
+
+  .owl-carousel{
+    height: auto;
+  }
+
+  .photo{
+    background-image: url("images/price.png");
+    width:310px ;
+    height: 434px;
+  }
+
+  .gtco-testimonials {
+    //position: relative;
+    margin-top: 30px;
+
+
+    .owl-stage-outer {
+      padding: 30px 0;
+    }
+
+    .owl-nav {
+      display: none;
+    }
+
+    .active span{
+      background: #000 !important;
+    }
+
+    .owl-dots {
+      text-align: center;
+      transform: translateY(-575px);
+      //position: absolute;
+    }
+
+    .card {
+      background: #fff;
+      margin: 0 20px;
+      border: 0;
+      height: 510px;
+    }
+
+  }
+
+  @media (max-width: 767px) {
+    .gtco-testimonials {
+      margin-top: 20px;
+    }
+  }
+
+  .owl-carousel {
+    .owl-nav button {
+      &.owl-next, &.owl-prev {
+        outline: 0;
+      }
+    }
+
+    button.owl-dot {
+      outline: 0;
+    }
+  }
+  .owl-theme .owl-dots .owl-dot span{
+    background: #888888;
+    border-radius:10px !important;
+    width: 7px;
+    height: 7px;
+  }
+}
+
+.homeOffice{
+  background-image: url("images/homeOffice.png");
+  width: 1440px;
+  height: 504px;
+  p:first-child{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    margin: auto;
+    width: fit-content;
+    color: white;
+    margin-top:174px
+  }
+  p:nth-child(2){
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin: auto;
+    width: fit-content;
+    color: white;
+    letter-spacing: 0.8px;
+    margin-top:12px;
+  }
+  div{
+    width: fit-content;
+    margin: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top:30px;
+    letter-spacing: 1.4px;
+  }
+  a:active{
+    color: white;
+  }
+  a:visited{
+    color:white;
+  }
+  a{
+    color: white !important;
+  }
+}
+
+.hardWay{
+  margin-top:120px;
+  .text{
+    p:nth-child(1){
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 34px;
+      width: fit-content;
+      margin: auto;
+    }
+    p:nth-child(2){
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.8px;
+      color: #A0A0A0;
+      width: 777px;
+      height: 72px;
+      margin: auto;
+      margin-top:23px;
+    }
+  }
+  .hardWayPhoto{
+    background-image: url("images/hardWay.png");
+    width: 1052px;
+    height: 592px;
+    margin: auto;
+    margin-top:23px
+  }
+}
+
+.makeWork{
+  margin-top:38px;
+  .text{
+    p:nth-child(1){
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 34px;
+      width: fit-content;
+      margin: auto;
+    }
+    p:nth-child(2){
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.8px;
+      color: #A0A0A0;
+      width: 777px;
+      height: 72px;
+      margin: auto;
+      margin-top:23px;
+    }
+  }
+  .row{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .photos{
+    width: fit-content;
+    margin: auto;
+  }
+
+  .photo{
+    width: 184px;
+    height: 246px;
+    margin: 14px 5.5px;
+    background-image: url("images/Rectangle-2.png");
+  }
+
+  .photo:first-child{
+    margin-left: 0;
+  }
+  .photo:last-child{
+    margin-right: 0;
+  }
+}
+
+.joinUs{
+  p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    width: fit-content;
+    margin: auto;
+    margin-top:124px;
+  }
+  div{
+    width: fit-content;
+    margin:auto;
+    margin-top: 44px;
+  }
+  a{
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 1.4px;
+  }
+}
+
+.banner{
+  width: 1340px;
+  height: 404px;
+  background-color: #9aa8b1;
+  margin: auto;
+  margin-top:121px;
+  .logo{
+    background-image: url("images/logoBanner.png");
+    width: 40px;
+    height: 34px;
+    margin: auto;
+    margin-top: 120px;
+  }
+  p:nth-child(2){
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 24px;
+    color: white;
+  }
+  p:nth-child(3){
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+    letter-spacing: 0.8px;
+    width: fit-content;
+    margin: auto;
+    color:white;
+    margin-top: 23px;
+  }
+
+}
+
+footer{
+  margin-top: 39px;
+  background-color: #f9f9f9;
+  height: 397px;
+  display: flex;
+    .links{
+    width: 180px;
+    height: 290px;
+    margin-top:80.5px;
+    margin-left: 50px;
+    a{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      color:black;
+    }
+    div{
+      margin-top: 16px;
+    }
+    div:nth-child(1){
+      margin-top: 0;
+    }
+  }
+
+  .signup{
+    margin-top:80.5px;
+    width:348px ;
+    margin-left: 24px;
+    p:nth-child(1){
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+    }
+
+    p:nth-child(2){
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.8px;
+      color:#a0a0a0;
+      margin-top: 23px;
+    }
+    div{
+      background-color: black;
+      width: 320px;
+      height: 1px;
+      margin-top: 91px;
+    }
+  }
+  .logo{
+    width: 82px;
+    height: 82px;
+    background-image: url("images/FOOTERLOGO.png");
+    margin-left: auto;
+    margin-right: 50px;
+    cursor:pointer;
+    transition: ease-in-out .3s;
+  }
+
+  .logo:hover{
+    filter: opacity(0.7);
+  }
+}
+
+.underlinks{
+  justify-content: end;
+  padding-right: 50px;
+  display: flex;
+  padding-bottom: 28px;
+  padding-top: 28px;
+  background: #f9f9f9;
+  div{
+    margin-right: 38px;
+    a{
+      color: #707a7f;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 15px;
+      text-align: right;
+      letter-spacing: 0.8px;
+    }
+  }
+  div:last-child{
+    margin-right: 0px;
+    a{
+      color: black;
+    }
+  }
+}
+
+@media screen and (max-width:1380px ){
+  .topmenu{
+    h1{
+      font-size: 25px;
+    }
+  }
+}
