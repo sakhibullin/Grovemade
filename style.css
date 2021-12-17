@@ -386,7 +386,7 @@ a:hover .shopMenu {
   margin-top: 12px;
 }
 .tableHead div {
-  color: white;
+  color: white !important;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -401,10 +401,10 @@ a:hover .shopMenu {
   margin-top: 28px;
 }
 .tableHead a:active {
-  color: white;
+  color: white !important;
 }
 .tableHead a:visited {
-  color: white;
+  color: white !important;
 }
 
 .slider {
